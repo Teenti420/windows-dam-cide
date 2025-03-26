@@ -12,11 +12,6 @@ This repository provides a **comprehensive guide** to Windows administration usi
 ✔ **⚡ `scripts/`** – Sample PowerShell and Batch scripts for automation.  
 ✔ **📖 `README.md`** – Overview of the repository and usage instructions.  
 
-## 🎯 Who Is This For?
-- **IT students** learning Windows administration.
-- **System administrators** who want to automate tasks.
-- **Developers** working in Windows environments.
-
 ## 🚀 How to Use This Repository
 1️⃣ Clone the repository:
    ```bash
