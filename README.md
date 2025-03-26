@@ -7,8 +7,8 @@ This repository provides a **comprehensive guide** to Windows administration usi
 - **Scripts and automation** examples for system management.
 
 ## 📂 Repository Contents
+✔ **📝 `exercises/`** – Folder to all exercice sheets 
 ✔ **📜 `commands.md`** – List of CMD and PowerShell commands with syntax and examples.  
-✔ **📝 `exercises.md`** – Practical exercises categorized by difficulty (Basic, Intermediate, Advanced).  
 ✔ **⚡ `scripts/`** – Sample PowerShell and Batch scripts for automation.  
 ✔ **📖 `README.md`** – Overview of the repository and usage instructions.  
 
