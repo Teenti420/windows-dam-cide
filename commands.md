@@ -2,6 +2,8 @@
 
 ## General Commands
 
+If you want to know more information about a command, you just have to use the atribute **/?** after the name of the comand on CMD. If you use cmdlets, you have to use its version, Get-Help CmdletName
+
 ### `help`
 - **CMD:** Displays a list of available commands.
   ```cmd
@@ -150,6 +152,16 @@
   Set-Location C:\Users
   ```
 
+### `type`
+- **CMD:** Displays the contents of a file.
+  ```cmd
+  type C:\Users\file.txt
+  ```
+- **PowerShell:**
+  ```powershell
+  Get-Content C:\Users\file.txt
+  ``` 
+
 ### `copy`
 - **CMD:** Copies files from one location to another.
   ```cmd
@@ -248,4 +260,42 @@
 - **PowerShell:**
   ```powershell
   Copy-Item -Path C:\Source -Destination C:\Destination -Recurse
-  
+
+## Wildcards in Windows
+
+Special characters used to represent one or more characters in a string of text.
+
+- **`*`**: Represents any number of characters and in any quantity.  
+  **Example:**
+  - **CMD/PowerShell:**  
+    ```cmd
+    dir *.txt
+    ```
+
+- **`?`**: Represents a single character in the specified position.  
+  **Example:**
+  - **CMD/PowerShell:**  
+    ```cmd
+    dir filename?.txt
+    ```
+
+- **`[]`**: Represents a set of characters within the specified range.  
+  **Example:**
+  - **CMD/PowerShell:**  
+    ```cmd
+    dir filename[1-3].jpg
+    ```
+
+- **`!`**: Represents the negation of the value that precedes it.  
+  **Example:**
+  - **CMD/PowerShell:**  
+    ```cmd
+    dir filename[!1-3].jpg
+    ```
+
+- **`~`**: Disables the execution of a wildcard, meaning it searches literally for the specified character.  
+  **Example:**
+  - **CMD/PowerShell:**  
+    ```cmd
+    dir ~*.txt
+    ```
