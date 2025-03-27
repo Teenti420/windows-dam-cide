@@ -82,28 +82,28 @@ Permissions include:
 
 OPTIONS:
 
-- /grant - Assign permissions
-- /deny - Deny permissions
-- /remove - Remove permissions
-- /inheritance - Inheritance configuration
-      :r to delete
-      :e to enable
-- /save and /restore - export and import permissions
+- `/grant` - Assign permissions
+- `/deny` - Deny permissions
+- `/remove` - Remove permissions
+- `/inheritance` - Inheritance configuration
+      `:r` to delete
+      `:e` to enable
+- `/save` and `/restore` - export and import permissions
 
 MODIFICATIONS:
 
-- OI (Object Inherit) - Permissions apply to files in the folder
-- CI (Container Inherit) - Permissions apply to subfolders.
-- IO (Inherit Only) - Permissions do not apply to the current folder, only to its children (files and folders)
-- NP (No Propagate Inherit): Permissions are not inherited beyond immediate children
+- **Object Inherit** (`OI`) - Permissions apply to files in the folder
+- **Container Inherit** (`CI`) - Permissions apply to subfolders.
+- **Inherit Only** (`IO`) - Permissions do not apply to the current folder, only to its children (files and folders)
+- **No Propagate Inherit** (`NP`): Permissions are not inherited beyond immediate children
 
 PERMISSIONS:
 
-- F (Full Control): Total control over the resource
-- M (Modify): Allows you to modify the content, but not to change permissions or properties
-- RX (Read and Execute): Allows reading and executing
-- R (Read): Allow read only
-- W (Write): Allows writing
+- **Full Control** (`F`): Total control over the resource
+- **Modify** (`M`): Allows you to modify the content, but not to change permissions or properties
+- **Read and Execute** (`RX`): Allows reading and executing
+- **Read** (`R`): Allow read only
+- **Write** (`W`): Allows writing
 
 ### 🔹 PowerShell: Managing Permissions
 - View permissions:  
