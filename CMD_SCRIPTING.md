@@ -48,7 +48,8 @@ pause
 ```
 📌 **Explanation**:
 - `set /p variable=` → Takes user input.
-- `set /a variable=` → Defines a variable
+- `set /a variable=` → Assign math operations
+- `set variable=` → Defines a variable
 - `%variable%` → Uses the stored value.
 
 ---
